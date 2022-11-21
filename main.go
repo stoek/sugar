@@ -14,6 +14,6 @@ func main() {
 	}
 	fmt.Printf("Hello %s! This is the Sugar programming language!\n",
 		user.Username)
-	fmt.Printf("Feel free to type in commands\n")
+	fmt.Printf("This is a REPL-ish, feel free to type some stuff to see it being converted to tokens! \n")
 	repl.Start(os.Stdin, os.Stdout)
 }
